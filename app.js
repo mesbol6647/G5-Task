@@ -82,6 +82,8 @@ console.log("Kısa İsim:", kısaİsim);
 
 
 console.log("******************************15.soru çözüm***************************")
+
+//! CEVAP -C map
 // Bir dizi içerisindeki sayıların karesini alarak her bir sayıyı konsola yazdırın.
 let numbers3 = [1, 2, 3, 4, 5];
 
@@ -109,6 +111,8 @@ console.log(squaredArr2)
 
 
 console.log("******************************16.soru çözüm***************************")
+//!CEVAP B-reduce
+
 const num10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const toplaCiftSayı = num10.reduce((toplam, sayi) => {
