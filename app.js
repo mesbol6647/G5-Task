@@ -1,11 +1,13 @@
 console.log("******************************13.soru çözüm***************************")
+
+
 const input1 =[1, -4, 12, 0, -3, 30, 42, -150]
 
 let pozitifToplam = input1.filter((x)=> x > 0).reduce((a, b)=> a+b, 0)
 console.log("Pozitif sayıların toplamı1:", pozitifToplam)
  
-// let negativeSum = input.filter((x)=> x < 0).reduce((a, b)=> a+b, 0)
-// console.log(negativeSum)
+let negativeSum = input.filter((x)=> x < 0).reduce((a, b)=> a+b, 0)
+console.log(negativeSum)
 
 //!.....................................2.çözüm...........................
 
@@ -69,22 +71,23 @@ console.log("Pozitif sayıların toplamı6:", positiveSum);
 
 
 console.log("******************************14.soru çözüm***************************")
-  const input = "John Ronald Reuel Tolkien";
-  yeniİsim = (str) => {
-  const arr = str.split(' ');
-  const ilkharf = arr.map((part) => part[0].toUpperCase()).join('');
-  return ilkharf;
-};
+const input1 = "John Ronald Reuel Tolkien";
 
-const kısaİsim = yeniİsim(input);
-console.log("Kısa İsim:", kısaİsim);
+
+const yeniIsim = (str) => {}
+
+   const arr = input1.split(" ");
+   const ilkHarf =arr.map((part)=> part[0].toUpperCase()).join("")
+
+console.log(ilkHarf);
+
 
 
 
 console.log("******************************15.soru çözüm***************************")
 
 //! CEVAP -C map
-// Bir dizi içerisindeki sayıların karesini alarak her bir sayıyı konsola yazdırın.
+Bir dizi içerisindeki sayıların karesini alarak her bir sayıyı konsola yazdırın.
 let numbers3 = [1, 2, 3, 4, 5];
 
 const sayiKare=numbers3.map((a, i, num)=>(a*a));
@@ -177,7 +180,7 @@ console.log(capitalizedNames1);
 //!farklı çözüm.................
 const words2 = ["apple", "banana", "cherry"];
 const capitalizedWords3 = [];
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 for (let i = 0; i < words.length; i++) {
   const capitalizedWord2 = words2[i].toUpperCase();
   capitalizedWords3.push(capitalizedWord2);
